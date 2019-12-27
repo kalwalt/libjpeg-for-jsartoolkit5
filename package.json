@@ -1,0 +1,27 @@
+{
+  "name": "libjpeg-for-jsartoolkit",
+  "version": "0.0.1",
+  "description": "Emscripten port of libjpeg for jsartoolkit5",
+  "keywords": [
+    "jpeg",
+    "libjpeg",
+    "jsartoolkit5"
+  ],
+  "author": "kalwalt (https://github.com/kalwalt)",
+  "repository": "git://https://github.com/kalwalt/libjpeg-for-jsartoolkit5.git",
+  "homepage": "https://github.com/kalwalt/libjpeg-for-jsartoolkit5",
+  "contributors": [
+    "Github Contributors (https://github.com/kalwalt/libjpeg-for-jsartoolkit5/graphs/contributors)"
+  ],
+  "bugs": {
+    "url": "https://github.com/kalwalt/libjpeg-for-jsartoolkit5/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "build": "node tools/makem.js; echo Built at `date`"
+  },
+  "license": "LGPL-3.0"
+}
