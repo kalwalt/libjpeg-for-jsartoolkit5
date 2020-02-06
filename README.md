@@ -1,7 +1,11 @@
 # libjpeg-for-jsartoolkit5
 
-This is the libjpeg library used for https://github.com/kalwalt/jsartoolkit5 necessary for compile jsartoolkit5.
-Used in combination with https://github.com/artoolkitx/artoolkit5
+## ⚠️ Not required anymore !! ⚠️
+By Emscripten version **v1.38.31** libjpeg can be included in the project simply adding the flag `-s USE_LIBJPEG`
+so this library is not necessary anymore to compile jsartoolkit5.
+
+~~This is the libjpeg library used for https://github.com/kalwalt/jsartoolkit5 necessary for compile jsartoolkit5.
+Used in combination with https://github.com/artoolkitx/artoolkit5~~
 
 ## Building the libjpeg with Emscripten
 
